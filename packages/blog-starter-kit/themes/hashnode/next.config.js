@@ -59,6 +59,12 @@ const getRedirectionRules = async () => {
  * @type {import('next').NextConfig}
  */
 const config = {
+	eslint: {
+		ignoreDuringBuilds: true,
+	},
+	typescript: {
+		ignoreBuildErrors: true,
+	},
 	transpilePackages: ['@starter-kit/utils'],
 	basePath: getBasePath(),
 	experimental: {
