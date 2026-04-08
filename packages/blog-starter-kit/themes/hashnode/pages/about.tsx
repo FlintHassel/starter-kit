@@ -11,9 +11,9 @@ export default function About() {
 
 	const projects = [
 		{
-			name: 'Tinjaukelas',
-			desc: 'Android app for classroom management built with Kotlin and raw SQLite.',
-			tag: 'Android',
+			name: 'Aplikasi Web CRUD',
+			desc: 'Aplikasi Web yang mengimplementasikan Api pada web, dibantu oleh Postman.',
+			tag: 'Web',
 		},
 		{
 			name: 'Login Bengkel',
