@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Link from 'next/link';
 
 export default function About() {
 	const skills = [
@@ -37,9 +38,17 @@ export default function About() {
 			</Head>
 
 			<main className="mx-auto max-w-3xl px-6 py-16">
+				<div className="mb-8">
+					<Link
+						href="/"
+						className="inline-flex items-center gap-2 font-mono text-sm text-slate-500 transition hover:text-green-500 dark:text-slate-400 dark:hover:text-green-400"
+					>
+						← Back to Home
+					</Link>
+				</div>
 				<div className="mb-12">
 					<span className="font-mono text-sm uppercase tracking-widest text-green-500">
-						✦ About Me
+						About Me
 					</span>
 					<h1 className="mb-4 mt-3 text-4xl font-bold text-slate-900 dark:text-white">
 						Hey, I am <span className="text-green-500">Akmal Khairan Rizaldi</span> 👋
@@ -48,7 +57,7 @@ export default function About() {
 						Hello. I am Akmal Khairan Rizaldi, I am a student developer from Indonesia who is
 						sincerely passionate about software engineering. From designing some UIs, organizing and
 						updating databases, to troubleshooting my red code issues at 3AM and stressing out, its
-						my everyday dinner.
+						my everyday problem.
 					</p>
 				</div>
 
