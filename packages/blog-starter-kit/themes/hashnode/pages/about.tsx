@@ -11,13 +11,13 @@ export default function About() {
 
 	const projects = [
 		{
-			name: 'Aplikasi Web CRUD',
-			desc: 'Aplikasi Web yang mengimplementasikan Api pada web, dibantu oleh Postman.',
+			name: 'Aplikasi Web RESTfulAPI',
+			desc: 'Aplikasi web yang mengimplementasikan API pada web. Menggunakan Laravel dan juga Postman.',
 			tag: 'Web',
 		},
 		{
-			name: 'Login Bengkel',
-			desc: 'Workshop management system built with PHP native MVC and MySQL.',
+			name: 'Aplikasi Web CRUD',
+			desc: 'Aplikasi web yang menggunakan metode CRUD dalam database dan menampilkan hasil nya pada web',
 			tag: 'Web',
 		},
 		{
