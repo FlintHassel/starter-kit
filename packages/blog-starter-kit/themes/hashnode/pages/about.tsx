@@ -21,7 +21,7 @@ export default function About() {
 			tag: 'Web',
 		},
 		{
-			name: 'This Blog',
+			name: 'Blog Pribadi ini',
 			desc: 'Headless Hashnode blog with fully custom Next.js frontend deployed on Vercel.',
 			tag: 'Open Source',
 		},
