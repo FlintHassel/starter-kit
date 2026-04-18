@@ -8,6 +8,7 @@ import { getUrqlClientConfig } from '../lib/api/client';
 import '../styles/index.css';
 
 import { Fragment } from 'react';
+import WelcomeScreen from '../components/welcome-screen';
 
 function MyApp({ Component, pageProps }: AppProps) {
 	useEffect(() => {
@@ -20,6 +21,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 	}, []);
 	return (
 		<Fragment>
+			<WelcomeScreen />
 			<GlobalFontVariables />
 			<Component {...pageProps} />
 		</Fragment>

@@ -30,7 +30,7 @@ export default function About() {
 	return (
 		<>
 			<Head>
-				<title>About — Flint Blog</title>
+				<title>About — Akmal Blog</title>
 				<meta
 					name="description"
 					content="Student developer from Indonesia passionate about web development and databases."
