@@ -37,7 +37,7 @@ export default function WelcomeScreen() {
 						fontFamily: 'monospace',
 						fontSize: 13,
 						letterSpacing: 6,
-						color: '#00C9A7',
+						color: '#cffff7',
 						marginBottom: 16,
 						textTransform: 'uppercase',
 					}}
@@ -60,34 +60,12 @@ export default function WelcomeScreen() {
 					style={{
 						fontFamily: 'monospace',
 						fontSize: 13,
-						color: '#475569',
+						color: '#343f4f',
 						marginTop: 16,
 						letterSpacing: 3,
 					}}
 				>
 					Web Dev & Coding
-				</div>
-
-				{/* Loading bar */}
-				<div
-					style={{
-						marginTop: 40,
-						width: 200,
-						height: 2,
-						background: '#1e293b',
-						borderRadius: 4,
-						overflow: 'hidden',
-						margin: '40px auto 0',
-					}}
-				>
-					<div
-						style={{
-							height: '100%',
-							background: 'linear-gradient(90deg, #00C9A7, #3B82F6)',
-							borderRadius: 4,
-							animation: 'loadbar 2.5s ease forwards',
-						}}
-					/>
 				</div>
 			</div>
 
